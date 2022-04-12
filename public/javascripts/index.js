@@ -13,7 +13,7 @@ $("#update_imagees").submit(function(event){
 
     console.log(data)
     var request = {
-        "url" : `http://localhost:5000/api/imagees/${data.id}`,
+        "url" : `https://asmmmmm.herokuapp.com/api/imagees/${data.id}`,
         "method" : "PUT",
         "data" : data
     }

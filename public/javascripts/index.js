@@ -29,7 +29,7 @@ if(window.location.pathname == "/"){
     $ondelete.click(function(){
             var id = $(this).attr("data-id")
             var request = {
-                "url" : `http://localhost:5000/api/imagees/${id}`,
+                "url" : `https://asmmmmm.herokuapp.com/api/imagees/${id}`,
                 "method" : "DELETE"
             }
 
